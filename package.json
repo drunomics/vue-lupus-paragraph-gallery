@@ -26,6 +26,7 @@
     "sass-loader": "^7.0.1",
     "style-loader": "^0.21.0",
     "vue-loader": "^15.0.5",
+    "vue-lupus-slider": "git+https://github.com/drunomics/vue-lupus-slider.git",
     "vue-template-compiler": "^2.5.16"
   },
   "devDependencies": {
