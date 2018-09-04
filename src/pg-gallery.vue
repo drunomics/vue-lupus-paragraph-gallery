@@ -6,10 +6,10 @@
     <lupus-slider
       arrows="1"
       bullets="1"
-      autoplay="0"
     >
       <lupus-slider-slide
         v-for="image in images"
+        :key="image.src"
       >
         <img 
           :alt="image.alt" 
