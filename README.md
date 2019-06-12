@@ -12,7 +12,7 @@ via npm:
 import it:
 
 ```
-import { PgGallery } from 'vue-lupus-paragraph-gallery';
+import PgGallery from 'vue-lupus-paragraph-gallery';
 
 Vue.component('pg-gallery', PgGallery);
 ```

@@ -11,8 +11,8 @@
         v-for="image in images"
         :key="image.src"
       >
-        <img 
-          :alt="image.alt" 
+        <img
+          :alt="image.alt"
           :src="image.src"
         >
       </lupus-slider-slide>
@@ -20,21 +20,21 @@
   </div>
 </template>
 <script>
-import { LupusSlider, LupusSliderSlide } from 'vue-lupus-slider';
+import { LupusSlider, LupusSliderSlide } from 'vue-lupus-slider'
 export default {
   name: 'PgGallery',
   components: {
     'lupus-slider': LupusSlider,
-    'lupus-slider-slide': LupusSliderSlide,
+    'lupus-slider-slide': LupusSliderSlide
   },
   props: {
     dataName: { type: String, default: () => '' },
-    dataImages: { type: String, default: () => ''}
+    dataImages: { type: String, default: () => '' }
   },
   computed: {
-    images() {
-      return JSON.parse(this.dataImages);
-    },
-  },
-};
+    images () {
+      return JSON.parse(this.dataImages)
+    }
+  }
+}
 </script>
